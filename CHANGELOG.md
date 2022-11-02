@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.6...v1.2.0) (2022-11-02)
+
+
+### Features
+
+* switch upload github action ([#19](https://github.com/mpetrun5/sygma-relayer/issues/19)) ([806ac30](https://github.com/mpetrun5/sygma-relayer/commit/806ac306c05e16bee83443c93b300dcc2fe1da14))
+
 ## [1.1.6](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.5...v1.1.6) (2022-11-02)
 
 
