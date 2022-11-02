@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/mpetrun5/sygma-relayer/compare/v1.2.1...v1.3.0) (2022-11-02)
+
+
+### Features
+
+* use go 1.18 to build ([#23](https://github.com/mpetrun5/sygma-relayer/issues/23)) ([bf6f136](https://github.com/mpetrun5/sygma-relayer/commit/bf6f1366a9428fe13c033cfbb3f4e9580011233a))
+
 ## [1.2.1](https://github.com/mpetrun5/sygma-relayer/compare/v1.2.0...v1.2.1) (2022-11-02)
 
 
