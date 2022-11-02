@@ -8,8 +8,10 @@ jobs:
   publish:
     name: publish
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Build
         run: make build-all
 
@@ -72,14 +74,3 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           files: 'build/darwin-arm64/relayer-darwin-arm64'
-
-      #in case of failure
-      - name: Rollback on failure
-        if: failure()
-        uses: author/action-rollback@9ec72a6af74774e00343c6de3e946b0901c23013
-        with:
-          id: ${{ steps.create_release.outputs.id }}
-          tag: ${{ needs.tag.outputs.tag }}
-          delete_orphan_tag: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
