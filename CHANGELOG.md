@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.5...v1.1.6) (2022-11-02)
+
+
+### Bug Fixes
+
+* remove job skipped line ([#17](https://github.com/mpetrun5/sygma-relayer/issues/17)) ([8d827b2](https://github.com/mpetrun5/sygma-relayer/commit/8d827b2cf7d67305f5beac5257450399c5907e31))
+
 ## [1.1.5](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.4...v1.1.5) (2022-11-02)
 
 
