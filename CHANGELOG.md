@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/mpetrun5/sygma-relayer/compare/v1.3.0...v1.3.1) (2022-11-02)
+
+
+### Bug Fixes
+
+* specify go more clearly ([#25](https://github.com/mpetrun5/sygma-relayer/issues/25)) ([161287c](https://github.com/mpetrun5/sygma-relayer/commit/161287ca4933472adf76926ad81896ec5753364a))
+
 ## [1.3.0](https://github.com/mpetrun5/sygma-relayer/compare/v1.2.1...v1.3.0) (2022-11-02)
 
 
