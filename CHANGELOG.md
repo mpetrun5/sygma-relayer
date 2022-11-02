@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.4...v1.1.5) (2022-11-02)
+
+
+### Bug Fixes
+
+* update gitignore ([#15](https://github.com/mpetrun5/sygma-relayer/issues/15)) ([ccf2e76](https://github.com/mpetrun5/sygma-relayer/commit/ccf2e763f249c77faf876b7328d2af131ea440e5))
+
 ## [1.1.4](https://github.com/mpetrun5/sygma-relayer/compare/v1.1.3...v1.1.4) (2022-11-02)
 
 
