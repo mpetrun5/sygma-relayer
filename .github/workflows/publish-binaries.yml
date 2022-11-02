@@ -39,42 +39,42 @@ jobs:
 
       - name: Upload Linux amd64
         id: relayer-linux-amd64
-        uses: actions/upload-release-asset@v2
+        uses: AButler/upload-release-assets@v2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/linux-amd64/relayer-linux-amd64
+          files: 'build/linux-amd64/relayer-linux-amd64'
           tag: ${{ github.ref }}
 
       - name: Upload Linux arm
         id: relayer-linux-arm
-        uses: actions/upload-release-asset@v2
+        uses: AButler/upload-release-assets@v2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/linux-arm/relayer-linux-arm
+          files: 'build/linux-arm/relayer-linux-arm'
           tag: ${{ github.ref }}
 
       - name: Upload Darwin amd64
         id: relayer-darwin-amd64
-        uses: actions/upload-release-asset@v2
+        uses: AButler/upload-release-assets@v2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/darwin-amd64/relayer-darwin-amd64
+          files: 'build/darwin-amd64/relayer-darwin-amd64'
           tag: ${{ github.ref }}
 
       - name: Upload Darwin arm
         id: relayer-darwin-arm64
-        uses: actions/upload-release-asset@v2
+        uses: AButler/upload-release-assets@v2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/darwin-arm64/relayer-darwin-arm64
+          files: 'build/darwin-arm64/relayer-darwin-arm64'
           tag: ${{ github.ref }}
 
       #in case of failure
