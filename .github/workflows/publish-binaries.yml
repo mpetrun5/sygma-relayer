@@ -49,7 +49,7 @@ jobs:
           tag: ${{ github.ref }}
 
       - name: Upload Linux arm
-        id: relayer-linux-amd64
+        id: relayer-linux-arm
         uses: actions/upload-release-asset@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
