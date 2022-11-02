@@ -44,7 +44,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-        with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: build/linux-amd64/relayer-linux-amd64
           tag: ${{ github.ref }}
@@ -54,7 +53,6 @@ jobs:
         uses: actions/upload-release-asset@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: build/linux-arm/relayer-linux-arm
@@ -66,7 +64,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-        with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: build/darwin-amd64/relayer-darwin-amd64
           tag: ${{ github.ref }}
@@ -76,7 +73,6 @@ jobs:
         uses: actions/upload-release-asset@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: build/darwin-arm64/relayer-darwin-arm64
