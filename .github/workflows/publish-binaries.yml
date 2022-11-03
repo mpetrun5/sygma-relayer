@@ -50,7 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'build/linux-amd64/relayer-linux-amd64'
+          files: 'build/linux-amd64/relayer-linux-amd64.zip'
 
       - name: Upload Linux arm
         id: relayer-linux-arm
@@ -59,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'build/linux-arm/relayer-linux-arm'
+          files: 'build/linux-arm/relayer-linux-arm.zip'
 
       - name: Upload Darwin amd64
         id: relayer-darwin-amd64
@@ -68,7 +68,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'build/darwin-amd64/relayer-darwin-amd64'
+          files: 'build/darwin-amd64/relayer-darwin-amd64.zip'
 
       - name: Upload Darwin arm
         id: relayer-darwin-arm64
@@ -77,4 +77,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'build/darwin-arm64/relayer-darwin-arm64'
+          files: 'build/darwin-arm64/relayer-darwin-arm64.zip'
